@@ -215,3 +215,54 @@ body {
 .clients-name {
   margin-bottom: 5px;
 }
+
+/*! contacts */
+.contacts-address {
+  font-style: normal;
+}
+
+.contacts-item {
+  flex-direction: column;
+  width: 370px;
+  outline: 1px solid coral;
+}
+
+.contacts-item:not(:nth-child(3n)){
+  margin-right: 30px;
+}
+
+.contacts-item-caption {
+  margin-bottom: 30px;
+}
+
+.contacts-item-text {
+  margin: 0;
+}
+
+.contacts-item-link:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+/*! footer */
+
+.footer {
+  padding: 42px 0;
+}
+
+.footer-container {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-left,
+.footer-right {
+  align-items: center;
+}
+
+.footer-logo {
+  margin-right: 25px;
+}
+
+.footer-item:not(:last-child) {
+  margin-right: 28px;
+}
