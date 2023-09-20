@@ -839,3 +839,12 @@ border-bottom: 1px solid #dadada;
   fill: transparent;
   stroke: #71a7e2;
 }
+
+.social-link:active svg {
+  fill: #3172B9;
+}
+
+.social-link-mail:active svg {
+  fill: transparent;
+  stroke: #3172B9;
+}
