@@ -315,7 +315,7 @@ body {
   margin-bottom: 25px;
 }
 
-.services-item:hover .services-item-icon {
+.services-item:hover .services-item-icon path {
   fill: #fff;
 }
 
